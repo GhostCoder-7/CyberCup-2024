@@ -1,0 +1,69 @@
+.home{
+    background-image: url("./images/abstract-red-background-christmas-valentines-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg");
+    height: 100vh;
+}
+
+.home-image{
+    width: 380px;
+    height: 400px;
+}
+.home-section-1{
+    padding-top: 100px;
+    padding-left: 260px;
+}
+.row{
+    margin-right: 0;
+}
+.home-section-2{
+    padding: 130px 170px 0 50px;
+}
+.amity{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    font-family: 'Roboto Slab', serif;
+}
+.tagline{
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+.btn {
+    background: #ffffff;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    -webkit-border-radius: 13;
+    -moz-border-radius: 13;
+    border-radius: 13px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 25px;
+    padding: 10px 50px 10px 50px;
+    border: solid #030303 3px;
+    text-decoration: none;
+    margin-left: 120px;
+    margin-top: 50px;
+  }
+  
+  .btn:hover {
+    background: black;
+    background-image: -webkit-linear-gradient(top, black, black);
+    background-image: -moz-linear-gradient(top, black, black);
+    background-image: -ms-linear-gradient(top, black, black);
+    background-image: -o-linear-gradient(top, black, black);
+    background-image: linear-gradient(to bottom, black, black);
+    text-decoration: none;
+    color: white;
+    border: solid white 3px;
+  }
+
+
+  .title{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
