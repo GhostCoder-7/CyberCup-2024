@@ -1,6 +1,14 @@
-.home{
-    background-image: url("./images/abstract-red-background-christmas-valentines-layout-design-studio-room-web-template-business-report-with-smooth-circle-gradient-color.jpg");
+body{
+    background-color: black;
+    background-image: url("./images/3d-network-connections-design-with-plexus-connecting-lines-dots.jpg");
+    background-attachment: fixed;
+}
+.nav-link{
+    color: white;
+}
+#Home{
     height: 100vh;
+
 }
 
 .home-image{
@@ -50,7 +58,7 @@
     margin-top: 50px;
   }
   
-  .btn:hover {
+.btn:hover {
     background: black;
     background-image: -webkit-linear-gradient(top, black, black);
     background-image: -moz-linear-gradient(top, black, black);
@@ -62,8 +70,30 @@
     border: solid white 3px;
   }
 
+.misc-div{
+    background-color: white;
+}
 
-  .title{
+.misc{
     text-align: center;
-    font-family: 'Lato', sans-serif;
-  }
+    padding: 40px 0 40px 0;
+
+}
+
+.misc-text{
+    padding: 30px 0 0 0 ;
+}
+
+.icons{
+    height: 40px;
+
+}
+#About-Us{
+    height: 100vh;
+    margin: 140px;
+}
+.about-us{
+    background-color: #191919;
+    color: white;
+    padding: 50px;
+}
