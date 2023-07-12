@@ -9,7 +9,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Bebas+Neue&family=Cairo:wght@700&family=Chivo+Mono:wght@300&family=Dosis:wght@600&family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans:ital,wght@1,500&family=IBM+Plex+Mono:wght@300&family=Josefin+Sans:ital,wght@1,500&family=Lato&family=Noto+Serif+NP+Hmong&family=Nova+Flat&family=Roboto&family=Roboto+Slab:wght@300&family=Rubik:wght@300&family=Secular+One&family=Unbounded&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Arvo&family=Bebas+Neue&family=Cairo:wght@700&family=Chivo+Mono:wght@300&family=Dosis:wght@600&family=Edu+VIC+WA+NT+Beginner&family=Fira+Sans:ital,wght@1,500&family=Fjalla+One&family=IBM+Plex+Mono:wght@300&family=Josefin+Sans:ital,wght@1,500&family=Lato&family=Noto+Serif+NP+Hmong&family=Nova+Flat&family=Roboto&family=Roboto+Slab:wght@300&family=Rubik:wght@300&family=Secular+One&family=Source+Code+Pro&family=Unbounded&display=swap" rel="stylesheet">
 
 
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
@@ -19,17 +19,17 @@
 </head>
 <body>
     <section id="navigation-bar">
-        <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg bg-dark ">
+            
+            
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="./images/logo.png" alt="Bootstrap">
+              </a>
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="./images/amity-university-logo_freelogovectors.net_.png" alt="Bootstrap">
-              </a>
-            </div>
-            <div class="navi collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
-                <ul class="navbar-nav">
+            <div class="navi collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ">
                   <li class="nav-item">
                       <a class="nav-link" href="#HomePage">Home</a>
                   </li>
@@ -59,53 +59,25 @@
                 </ul>
                 
               </div>
+              
+              
+
           </nav>
     </section>
     <section id="Home">
-       
-        <div class="containter">
-            <h1 class="amity"><b> Amity University Uttar Pradesh </b></h1>
-            <h3 style="text-align: center; color:white; font-family: 'Arvo', serif; padding-top: 7px;">Presents</h3>
-            <div class="row">
-                <div class="col-lg-6 home-section-1">
-                    <img class="home-image" src="./images/home-image.png" alt="">
-                </div>
-                <div class="col-lg-6 home-section-2">
-                    <h3 class="tagline">Unleash your creativity, code your dreams,
-                        and conquer the challenges 
-                        at our Hackathon!</h3>
-
-                    <a href="" type="button" class="btn">Register Now</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="Misc">
-        <div class="misc-div">
-            <h4 class="misc">Last Date to Register</h4>
-            <div class="row">
-                <div class="col-lg-3 misc">
-                    <img class="icons" src="./images/globe-solid.svg" alt=""> <br>
-                    <h4 class="misc-text">In-Person Hackathon</h4>
-                </div>
-                <div class="col-lg-3 misc">
-                    <img class="icons" src="./images/users-solid.svg" alt=""> <br>
-                    <h4 class="misc-text">1-4 Team Members</h4>
-                </div>
-                <div class="col-lg-3 misc">
-                    <img class="icons" src="./images/earth-americas-solid.svg" alt=""> <br>
-                    <h4 class="misc-text">Amity University, Noida</h4>
-                </div>
-                <div class="col-lg-3 misc">
-                    <img class="icons" src="./images/trophy-solid.svg" alt=""> <br>
-                    <h4 class="misc-text"> Prize pool of ______</h4>
-                </div>
-            </div>
-        </div>
         
+        <div class="container container-home">
+                <h3 class="Amity-University">AMITY UNIVERSITY UTTAR PRADESH</h3>
+                <h5 class="presents">Presents</h5>
+                <!-- image of cybercup 2.0 -->
+                <img class="home-image" src="./images/New Project (5).png" alt="error404 image not found"> <br>
+                <a class="btn" type="button" href="">Register Now</a>
+        </div>
     </section>
     <section id="About-Us">
         <div class="container-fluid about-us">
+            
+                <h2 class="title"> ABOUT US</h2>
             <div class="about-amity">
                 <h3 class="amity-headline">ABOUT AMITY UNIVERSITY UTTAR PRADESH, NOIDA</h3>
             <p class="amity-text">At Amity we are passionate about grooming leaders who are 
@@ -123,6 +95,7 @@
                     The hi-tech labs act as ideal training grounds for budding professionals 
                     that allow students to experiment and bring to practice what they have learnt in theory.</p>
             </div>
+            <br>
 
             <div class="about-aset">
                 <h3 class="aset-headline">ABOUT AMITY SCHOOL OF ENGINEERING & TECHNOLOGY</h3>
@@ -145,6 +118,7 @@
                     professionals that allow students to experiment and gain practical knowledge.
                 </p>
             </div>
+            <br>
             <div class="about-cse">
                 <h3 class="cse-headline">ABOUT DEPARTMENT OF COMPUTER SCIENCE AND ORGANIZATION</h3>
                 <p class="cse-text">Department of Computer Science & Engineering was formed in 2003 at 
@@ -162,6 +136,7 @@
                     seminars to discuss current research topics and results.</p>
 
             </div>
+            <br>
             <div class="about-cybercup">
                 <h3 class="cybercup-headline">ABOUT CYBERCUP 2024</h3>
                 <p class="cybercup-text">Amity University Uttar Pradesh, Noida campus is organizing CyberCup 
@@ -178,8 +153,55 @@
                     To keep students motivated during the 24 Hours hackathon, flash mobs and yoga 
                     session will be organised.</p>
             </div>
+            
+            
 
         </div>
+    </section>
+    <section id="Themes">
+        <div class="container">
+            <div class="box">
+              <span></span>
+              <div class="content">
+                <h2>Blockchain & CyberSecurity</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="box">
+              <span></span>
+              <div class="content">
+                <h2>Artiffical Intelligence</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="box">
+              <span></span>
+              <div class="content">
+                <h2>Internet of Things</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="box">
+              <span></span>
+              <div class="content">
+                <h2>Cloud Computing</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                  <h2></h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+          </div>
+            
     </section>
 
 
